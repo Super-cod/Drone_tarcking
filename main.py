@@ -3,10 +3,10 @@ import numpy as np
 from collections import defaultdict
 from ultralytics import YOLO
 
-WEIGHTS_PATH = r"runs/detect/train/weights/best.pt"
-VIDEO_SOURCE = r"sample3.mp4"
+WEIGHTS_PATH = r"runs/detect/train4/weights/best.pt"
+VIDEO_SOURCE = r"sample4.mp4"
 CONF_THRES = 0.4
-OUTPUT_VIDEO = r"output_detections2.mp4"
+OUTPUT_VIDEO = r"output_detections4.mp4"
 DISPLAY_WINDOW = False
 TRACK_HISTORY_LENGTH = 30
 
