@@ -1,0 +1,15 @@
+nc: 2
+names:
+  - bird
+  - drone
+
+train: train/images
+val: valid/images
+test: test/images
+
+roboflow:
+  license: Public Domain
+  project: birds-drons-pdile
+  url: https://universe.roboflow.com/supercell/birds-drons-pdile/dataset/1
+  version: 1
+  workspace: supercell
